@@ -1,20 +1,19 @@
 package com.lostsys.sample.hexagonal.application;
 
-import java.util.List;
-import java.util.UUID;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 import com.lostsys.sample.hexagonal.domain.Customer;
 import com.lostsys.sample.hexagonal.infra.inputport.CustomerInputPort;
 import com.lostsys.sample.hexagonal.infra.outputport.EntityRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+import java.util.UUID;
 
 @Component
+@RequiredArgsConstructor
 public class CustomerUseCase implements CustomerInputPort {
 
-    @Autowired
-    EntityRepository entityRepository;
+    final EntityRepository entityRepository;
 
     @Override
     public Customer createCustomer(String name, String country) {
