@@ -1,4 +1,4 @@
-package com.lostsys.sample.hexagonal.infra.outputadapter.postgresrepository;
+package com.onebit.sample.hexagonal.infra.outputadapter.postgresrepository;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -13,7 +13,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 
-import com.lostsys.sample.hexagonal.infra.outputport.EntityRepository;
+import com.onebit.sample.hexagonal.infra.outputport.EntityRepository;
 
 @Component
 @RequiredArgsConstructor

@@ -1,4 +1,4 @@
-package com.lostsys.sample.hexagonal;
+package com.onebit.sample.hexagonal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.lostsys.sample.hexagonal.infra.inputadapter.http;
+package com.onebit.sample.hexagonal.infra.inputadapter.http;
 
-import com.lostsys.sample.hexagonal.domain.Orders;
-import com.lostsys.sample.hexagonal.infra.inputport.OrderInputPort;
+import com.onebit.sample.hexagonal.domain.Orders;
+import com.onebit.sample.hexagonal.infra.inputport.OrderInputPort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,7 +19,7 @@ public class OrderAPI {
     final OrderInputPort orderInputPort;
 
     @PostMapping(value = "create", produces=MediaType.APPLICATION_JSON_VALUE)
-    public Orders create( @RequestParam String customerId, @RequestParam BigDecimal total ) {
+    public Orders create(@RequestParam String customerId, @RequestParam BigDecimal total ) {
         return orderInputPort.createOrder(customerId, total);
         }
     

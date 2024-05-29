@@ -1,4 +1,4 @@
-package com.lostsys.sample.hexagonal.infra.outputport;
+package com.onebit.sample.hexagonal.infra.outputport;
 
 import java.util.List;
 

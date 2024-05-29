@@ -1,8 +1,8 @@
-package com.lostsys.sample.hexagonal.infra.inputport;
+package com.onebit.sample.hexagonal.infra.inputport;
 
 import java.util.List;
 
-import com.lostsys.sample.hexagonal.domain.Customer;
+import com.onebit.sample.hexagonal.domain.Customer;
 
 public interface CustomerInputPort {
 

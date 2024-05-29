@@ -1,8 +1,8 @@
-package com.lostsys.sample.hexagonal.application;
+package com.onebit.sample.hexagonal.application;
 
-import com.lostsys.sample.hexagonal.domain.Customer;
-import com.lostsys.sample.hexagonal.infra.inputport.CustomerInputPort;
-import com.lostsys.sample.hexagonal.infra.outputport.EntityRepository;
+import com.onebit.sample.hexagonal.domain.Customer;
+import com.onebit.sample.hexagonal.infra.inputport.CustomerInputPort;
+import com.onebit.sample.hexagonal.infra.outputport.EntityRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -35,5 +35,5 @@ public class CustomerUseCase implements CustomerInputPort {
     public List<Customer> getAll() {
         return entityRepository.getAll( Customer.class );
     }
-    
+
 }

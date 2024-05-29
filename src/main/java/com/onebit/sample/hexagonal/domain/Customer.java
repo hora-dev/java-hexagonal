@@ -1,4 +1,4 @@
-package com.lostsys.sample.hexagonal.domain;
+package com.onebit.sample.hexagonal.domain;
 
 import lombok.Builder;
 import lombok.Getter;
