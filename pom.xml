@@ -142,9 +142,9 @@
           </dependencies>
           <configuration>
             <excludes>
-              <exclude>com/lostsys/sample/hexagonal/domain/**</exclude>
-              <exclude>com/lostsys/sample/hexagonal/infra/**</exclude>
-              <exclude>com/lostsys/sample/hexagonal/*.class</exclude>
+              <exclude>com/onebit/sample/hexagonal/domain/**</exclude>
+              <exclude>com/onebit/sample/hexagonal/infra/**</exclude>
+              <exclude>com/onebit/sample/hexagonal/*.class</exclude>
             </excludes>
             <rules>
               <rule>

@@ -1,8 +1,8 @@
 package com.lostsys.sample.hexagonal;
 
-import com.lostsys.sample.hexagonal.application.CustomerUseCase;
-import com.lostsys.sample.hexagonal.domain.Customer;
-import com.lostsys.sample.hexagonal.infra.outputport.EntityRepository;
+import com.onebit.sample.hexagonal.application.CustomerUseCase;
+import com.onebit.sample.hexagonal.domain.Customer;
+import com.onebit.sample.hexagonal.infra.outputport.EntityRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

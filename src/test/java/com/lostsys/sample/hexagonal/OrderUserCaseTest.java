@@ -1,8 +1,8 @@
 package com.lostsys.sample.hexagonal;
 
-import com.lostsys.sample.hexagonal.application.OrderUserCase;
-import com.lostsys.sample.hexagonal.domain.Orders;
-import com.lostsys.sample.hexagonal.infra.outputport.EntityRepository;
+import com.onebit.sample.hexagonal.application.OrderUserCase;
+import com.onebit.sample.hexagonal.domain.Orders;
+import com.onebit.sample.hexagonal.infra.outputport.EntityRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
